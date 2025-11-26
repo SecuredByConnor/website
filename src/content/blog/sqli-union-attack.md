@@ -29,7 +29,7 @@ To determine the number of columns that are being returned by the query by perfo
 
 * **Base Score:** 8.2 (AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N)  \- The vulnerability has a high severity due to its potential for remote exploitation and the significant risk it poses to confidentiality. It enables attackers to extract sensitive data from the database. However, the vulnerability does not compromise system integrity or availability, as the focus of the attack is solely on data disclosure.
 
-<img src="/public/web-security-academy/cvss-3.1-score.png" alt="" width="800"/>
+<img src="/web-security-academy/cvss-3.1-score.png" alt="" width="800"/>
 
 <br>
 
@@ -44,13 +44,13 @@ To determine the number of columns that are being returned by the query by perfo
 To determine the number of columns required for a UNION-based SQL injection, I used Burp Suite to intercept the request that sets the project category filter. After capturing the request, I sent it to Repeater to allow repeated testing and modification of the payload:
 
 1. Modified the category parameter to "Gifts '+UNION+SELECT+NULL--", which caused the application to return an error.
-<img src="/public/web-security-academy/screenshot1.png" alt="" width="800"/>
+<img src="/web-security-academy/screenshot1.png" alt="" width="800"/>
 
 2. Added an additional null value to the payload "'+UNION+SELECT+NULL,NULL--"
-<img src="/public/web-security-academy/screenshot2.png" alt="" width="800"/>
+<img src="/web-security-academy/screenshot2.png" alt="" width="800"/>
 
 3. Continued incrementally adding null values and resending the request until the server responded without an error and "Lab Solved".
-<img src="/public/web-security-academy/screenshot3.png" alt="" width="800"/> <img src="/public/web-security-academy/screenshot4.png" alt="" width="800"/>
+<img src="/web-security-academy/screenshot3.png" alt="" width="800"/> <img src="/web-security-academy/screenshot4.png" alt="" width="800"/>
 
 #### Findings
 By gradually increasing the number of null values in the UNION query, I identified the exact number of columns the application expects in its SQL queries (3). This confirmed that the application is vulnerable to UNION-based SQL injection, allowing an attacker to manipulate database queries and retrieve unintended data.

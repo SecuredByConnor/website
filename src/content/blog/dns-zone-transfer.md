@@ -92,7 +92,7 @@ The IP address for ftp.admin.inlanefreight.htb is 10.10.34.2
 #### Method
 
 No commands were required for this step. The IP was manually reviewed from the zone transfer output:
-<img src="/public/web-pentesting-path/dnszonetransfer/screenshot3redacted.png" alt="Screenshot of largest IP in DNS Zone Transfer request" width="800"/>
+<img src="/web-pentesting-path/dnszonetransfer/screenshot3redacted.png" alt="Screenshot of largest IP in DNS Zone Transfer request" width="800"/>
 
 <br>
 
