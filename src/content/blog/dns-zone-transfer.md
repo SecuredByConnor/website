@@ -7,8 +7,6 @@ heroImage: '../../assets/blog-placeholder-3.jpg'
 draft: false
 ---
 
-
-Lab: [https://academy.hackthebox.com/module/144/section/1255](https://academy.hackthebox.com/module/144/section/1255)   
 Target IP: 10.129.28.199  
 Local IP: 10.10.14.179
 
@@ -34,7 +32,9 @@ Perform a zone transfer on the domain "**inlanefreight.htb**" to enumerate DNS r
 
 ## <u>CVSS v3.1 Score:</u>
 
-* **Base Score:** 7.5 (High) \- The vulnerability has a high severity due to its network-based exploitability and high impact on confidentiality (since it leaks internal subdomain information), but it does not affect system integrity or availability.
+* **Base Score:** 7.5 (High - AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N) \- The vulnerability has a high severity due to its network-based exploitability and high impact on confidentiality (since it leaks internal subdomain information), but it does not affect system integrity or availability.
+
+<img src="/public/web-pentesting-path/dnszonetransfer/cvss-3-1-score.png" alt="Screenshot of DNS Zone Transfer request" width="800"/>
 
 <br>
 
