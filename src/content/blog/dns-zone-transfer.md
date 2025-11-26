@@ -34,7 +34,7 @@ Perform a zone transfer on the domain "**inlanefreight.htb**" to enumerate DNS r
 
 * **Base Score:** 7.5 (High - AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N) \- The vulnerability has a high severity due to its network-based exploitability and high impact on confidentiality (since it leaks internal subdomain information), but it does not affect system integrity or availability.
 
-<img src="/public/web-pentesting-path/dnszonetransfer/cvss-3-1-score.png" alt="Screenshot of DNS Zone Transfer request" width="800"/>
+<img src="/web-pentesting-path/dnszonetransfer/cvss-3-1-score.png" alt="Screenshot of DNS Zone Transfer request" width="800"/>
 
 <br>
 
@@ -48,7 +48,7 @@ Perform a zone transfer on the domain "**inlanefreight.htb**" to enumerate DNS r
 #### Method
 
 To perform a DNS zone transfer, I used the dig command to query the target name server directly:
-<img src="/public/web-pentesting-path/dnszonetransfer/screenshot1redacted.png" alt="Screenshot of DNS Zone Transfer request" width="800"/>
+<img src="/web-pentesting-path/dnszonetransfer/screenshot1redacted.png" alt="Screenshot of DNS Zone Transfer request" width="800"/>
 
 #### Findings
 
@@ -67,7 +67,7 @@ The zone transfer was successful, returning 22 DNS records. This indicates that 
 #### Method
 
 To find the IP address associated with the subdomain "ftp.admin.inlanefreight.htb", I filtered the output from the zone transfer using grep:
-<img src="/public/web-pentesting-path/dnszonetransfer/screenshot2redacted.png" alt="Screenshot of zone transfer request using grep" width="800"/>
+<img src="/web-pentesting-path/dnszonetransfer/screenshot2redacted.png" alt="Screenshot of zone transfer request using grep" width="800"/>
 
 <br>
 
@@ -92,7 +92,7 @@ The IP address for ftp.admin.inlanefreight.htb is 10.10.34.2
 #### Method
 
 No commands were required for this step. The IP was manually reviewed from the zone transfer output:
-<img src="/web-pentesting-path/dnszonetransfer/screenshot3redacted.png" alt="Screenshot of largest IP in DNS Zone Transfer request" width="800"/>
+<img src="\web-pentesting-path\dnszonetransfer/screenshot3redacted.png" alt="Screenshot of largest IP in DNS Zone Transfer request" width="800"/>
 
 <br>
 
