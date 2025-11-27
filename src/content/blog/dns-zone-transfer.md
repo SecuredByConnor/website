@@ -37,6 +37,7 @@ Perform a zone transfer on the domain "**inlanefreight.htb**" to enumerate DNS r
 <img src="/web-pentesting-path/dnszonetransfer/cvss-3-1-score.png" alt="Screenshot of DNS Zone Transfer request" width="800"/>
 
 <br>
+<br>
 
 ## <u>Questions</u>
 

@@ -32,6 +32,7 @@ To determine the number of columns that are being returned by the query by perfo
 <img src="/web-security-academy/cvss-3.1-score.png" alt="" width="800"/>
 
 <br>
+<br>
 
 ## <u>Questions</u>
 
