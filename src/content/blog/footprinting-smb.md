@@ -101,6 +101,11 @@ To find the name of the accessible share, smbmap was used to enumerate shares:
 -H: Specifies host
 <br>
 <img src="/pentesting-path/footprinting/smb/question-2/smbmap-h-option.png" alt="" width="800"/>
+<br>
+**<u>Result</u>**
+<br>
+<img src="/pentesting-path/footprinting/smb/question-2/smbmap-command.png" alt="" width="800"/>
+<br>
 
 #### <u>Findings</u>
 Three shares are discovered, but only sambashare is accessible with read-only permissions. This indicates that although the confidentiality threat is high, the integrity threat remains low because files with read-only access cannot be manipulated. Availability also remains low.
