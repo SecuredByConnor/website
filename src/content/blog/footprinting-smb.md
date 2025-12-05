@@ -313,6 +313,23 @@ The full system path of the share was successfully retrieved using the netshareg
 <br>
 
 ---
+ ## <u>MITRE ATT&CK Mapping</u>
+| **Tactic** |
+|----------------|
+| Reconnaissance (TA0043) |
+<br>
+
+| **Techniques** |
+|----------------|
+| T1590 – Gather Victim Network Information |
+| T1046 – Network Service Scanning |
+| T1135 – Network Share Discovery |
+
+Enumeration of SMB shares, domain names, user accounts and service versions aligns directly with ATT&CK techniques used to map a target environment prior to exploitation.
+<br>
+<br>
+
+---
  ## <u>Conclusion</u>
 The process of footprinting and enumerating the SMB service on the target system successfully revealed critical information, such as the SMB version, accessible shares, and domain affiliation. The tools smbmap and rpcclient were instrumental in identifying an accessible share (sambashare), extracting sensitive information from the server, and confirming the server’s domain association (DEVOPS).
 
