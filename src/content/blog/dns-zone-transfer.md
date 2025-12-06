@@ -1,5 +1,5 @@
 ---
-title: "HTB: DNS Zone Transfer"
+title: "DNS Zone Transfer"
 description: "Write-up for the HTB DNS Zone Transfer (Information Gathering - Web Edition) room."
 pubDate: 2025/11/24
 tags: ["HTB","DNS", "Zone Transfer"]
@@ -7,13 +7,19 @@ heroImage: '../../assets/blog-placeholder-3.jpg'
 draft: false
 ---
 
-Target IP: 10.129.28.199  
-Local IP: 10.10.14.179
+**Platform:** Hack The Box (HTB)
+<br>
+**Path:** Web Penetration Testing
+<br>
+**Module:** Information Gathering - Web Edition
+<br>
+**Section:** DNS Zone Transfer
 
-**Note: All personal identifiers have been removed from the screenshots. The internal HTB IP ranges (10.10.x.x) and training domains remain unredacted, as they are intentionally exposed within the Hack The Box environment and do not represent real-world infrastructure.**
+**Note: All personal identifiers have been removed from the screenshots. The internal HTB IP ranges (10.10.x.x) and training domains remain unredacted, as they are intentionally exposed within the Hack The Box environment and do not represent real‑world infrastructure. Additionally, the IP addresses shown may vary throughout this write‑up due to the dynamic nature of HTB machines, which frequently change their IP addresses as part of their timed and resource‑allocation mechanisms.**
+
+---
 
 <br>
-
 <br>
 
 ## <u>Objective</u>

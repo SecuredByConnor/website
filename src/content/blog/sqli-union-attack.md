@@ -1,5 +1,5 @@
 ---
-title: "Web Security Academy: SQLI Union Attack"
+title: "SQLi UNION‑Based Column Enumeration"
 description: "Write-up for the SQLI Union Attack Lab"
 pubDate: 2025/11/26
 tags: ["HTB","SMB", "Penetration Tester Path"]
@@ -7,8 +7,19 @@ heroImage: '../../assets/blog-placeholder-4.jpg'
 draft: false
 --- 
 
+**Platform:** Web Security Academy
 <br>
+**Path:** SQL injection
+<br>
+**Module:** UNION Attack
+<br>
+**Section:** Determining the number of columns required 
 
+**Note: All personal identifiers have been removed from the screenshots.**
+
+---
+
+<br>
 <br>
 
 ## <u>Objective</u>

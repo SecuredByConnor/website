@@ -1,5 +1,5 @@
 ---
-title: "HTB: Footprinting SMB"
+title: "Footprinting SMB"
 description: "Write-up for the HTB Footprinting SMB room in the penetration testing path"
 pubDate: 2025/12/04
 tags: ["HTB","SMB", "Penetration Tester Path"]
@@ -7,18 +7,17 @@ heroImage: '../../assets/blog-placeholder-3.jpg'
 draft: false
 ---
 
-**HTB Path:** Penetration Testing
+**Platform:** Hack The Box (HTB)
+<br>
+**Path:** Penetration Testing
 <br>
 **Module:** Footprinting
 <br>
 **Section:** Host Based Enumeration
-<br>
-<br>
 
+**Note: All personal identifiers have been removed from the screenshots. The internal HTB IP ranges (10.10.x.x) and training domains remain unredacted, as they are intentionally exposed within the Hack The Box environment and do not represent real‑world infrastructure. Additionally, the IP addresses shown may vary throughout this write‑up due to the dynamic nature of HTB machines, which frequently change their IP addresses as part of their timed and resource‑allocation mechanisms.**
 
-**Note: Note: All personal identifiers have been removed from the screenshots. The internal HTB IP ranges (10.10.x.x) and training domains remain unredacted, as they are intentionally exposed within the Hack The Box environment and do not represent real‑world infrastructure. Additionally, the IP addresses shown may vary throughout this write‑up due to the dynamic nature of HTB machines, which frequently change their IP addresses as part of their timed and resource‑allocation mechanisms.**
-
-
+---
 
 <br>
 
