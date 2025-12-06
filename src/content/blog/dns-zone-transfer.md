@@ -43,6 +43,8 @@ Perform a zone transfer on the domain "**inlanefreight.htb**" to enumerate DNS r
 <img src="/web-pentesting-path/dnszonetransfer/cvss-3-1-score.png" alt="Screenshot of DNS Zone Transfer request" width="800"/>
 
 <br>
+
+---
 <br>
 
 ## <u>Questions</u>
@@ -66,7 +68,9 @@ The zone transfer was successful, returning 22 DNS records. This indicates that 
 22
 
 <br>
+<br>
 
+---
 ### <u>Question 2:</u> 
 
 **Within the zone record transferred above, find the IP address for ftp.admin.inlanefreight.htb. Respond only with the IP address, eg 127.0.0.1**
@@ -89,7 +93,9 @@ The IP address for ftp.admin.inlanefreight.htb is 10.10.34.2
 10.10.34.2
 
 <br>
+<br>
 
+---
 ### <u>Question 3:</u> 
 
 **Within the same zone record, identify the largest IP address allocated within the 10.10.200 IP range. Respond with the full IP address, eg 10.10.200.1**
@@ -114,7 +120,9 @@ The largest IP address within the 10.10.200 range was 10.10.200.14
 10.10.200.14
 
 <br>
+<br>
 
+---
 ## <u>Conclusion</u>
 
 The zone transfer vulnerability identified on the inlanefreight.htb domain presents a significant confidentiality risk by exposing sensitive internal network details, such as subdomains, hostnames, IP addresses and infrastructure layout. The integrity and availability of the DNS service is unaffected, but the exposed data could be used by attackers for targeted enumeration or lateral movement.

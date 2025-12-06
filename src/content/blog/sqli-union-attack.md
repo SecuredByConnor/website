@@ -43,6 +43,8 @@ To determine the number of columns that are being returned by the query by perfo
 <img src="/web-security-academy/cvss-3.1-score.png" alt="" width="800"/>
 
 <br>
+
+---
 <br>
 
 ## <u>Questions</u>
@@ -73,7 +75,9 @@ By gradually increasing the number of null values in the UNION query, I identifi
 
 
 <br>
+<br>
 
+---
 ## <u>Conclusion</u>
 The SQL injection vulnerability found in the product category filter poses a significant risk to confidentiality by allowing unauthorized database queries through UNION-based injection. This vulnerability enables attackers to access the database structure and retrieve sensitive information that should not be publicly available. Although the application's integrity and availability are not affected in this case, the ability to manipulate SQL queries is a serious flaw that could be exploited further.
 
